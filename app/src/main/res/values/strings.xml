@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Coach</string>
+    <string name="title_activity_introduction">Introduction</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_abductors">Abductors</string>
+    <string name="title_activity_adductors">Adductors</string>
+    <string name="title_activity_abs">Abs</string>
+    <string name="title_activity_biceps">Biceps</string>
+    <string name="title_activity_chest">Chest</string>
+    <string name="title_activity_forearm">Forearm</string>
+    <string name="title_activity_obliques">Obliques</string>
+    <string name="title_activity_shoulders">Shoulders</string>
+    <string name="title_activity_quads">Quads</string>
 </resources>

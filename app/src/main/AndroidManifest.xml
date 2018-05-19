@@ -16,6 +16,45 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_introduction" />
+        <activity
+            android:name=".Abductors"
+            android:label="@string/title_activity_abductors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Adductors"
+            android:label="@string/title_activity_adductors"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Abs"
+            android:label="@string/title_activity_abs"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Biceps"
+            android:label="@string/title_activity_biceps"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chest"
+            android:label="@string/title_activity_chest"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Forearm"
+            android:label="@string/title_activity_forearm"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Obliques"
+            android:label="@string/title_activity_obliques"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Shoulders"
+            android:label="@string/title_activity_shoulders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Quads"
+            android:label="@string/title_activity_quads"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
