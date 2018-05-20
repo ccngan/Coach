@@ -7,9 +7,19 @@
         android:title="@string/title_home" />
 
     <item
+        android:id="@+id/navigation_fitness"
+        android:icon="@drawable/baseline_fitness_center_black_24dp"
+        android:title="@string/title_fitness" />
+
+    <item
         android:id="@+id/navigation_dashboard"
         android:icon="@drawable/ic_dashboard_black_24dp"
         android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/navigation_diet"
+        android:icon="@drawable/baseline_fastfood_black_24dp"
+        android:title="@string/title_diet" />
 
     <item
         android:id="@+id/navigation_notifications"

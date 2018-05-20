@@ -23,8 +23,14 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
                 case R.id.navigation_home:
                     mTextMessage.setText(R.string.title_home);
                     return true;
+                case R.id.navigation_fitness:
+                    mTextMessage.setText(R.string.title_fitness);
+                    return true;
                 case R.id.navigation_dashboard:
                     mTextMessage.setText(R.string.title_dashboard);
+                    return true;
+                case R.id.navigation_diet:
+                    mTextMessage.setText(R.string.title_diet);
                     return true;
                 case R.id.navigation_notifications:
                     mTextMessage.setText(R.string.title_notifications);

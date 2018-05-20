@@ -2,7 +2,9 @@
     <string name="app_name">Coach</string>
     <string name="title_activity_introduction">Introduction</string>
     <string name="title_home">Home</string>
+    <string name="title_fitness">Fitness</string>
     <string name="title_dashboard">Dashboard</string>
+    <string name="title_diet">Diet</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_abductors">Abductors</string>
     <string name="title_activity_adductors">Adductors</string>
@@ -13,4 +15,5 @@
     <string name="title_activity_obliques">Obliques</string>
     <string name="title_activity_shoulders">Shoulders</string>
     <string name="title_activity_quads">Quads</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
 </resources>
