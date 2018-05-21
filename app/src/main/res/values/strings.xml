@@ -16,4 +16,5 @@
     <string name="title_activity_shoulders">Shoulders</string>
     <string name="title_activity_quads">Quads</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_mealmenu">Meals</string>
 </resources>

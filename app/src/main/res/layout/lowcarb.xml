@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/lowcarb1"
+                />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:paddingTop="20dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:text="Low-carb diets have been popular for many decades, especially for weight loss.
+
+There are several types of low-carb diets, but all of them involve limiting carb intake to 20–150 grams of net carbs per day.
+
+The primary aim of the diet is to force the body to use more fats for fuel, instead of using carbs as a main source of energy. "
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:textStyle="bold"
+                android:text="How it works"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="310dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:text="Low-carb diets are based on eating unlimited amounts of protein and fat, while severely limiting your carb intake.
+
+When carb intake is very low, fatty acids are moved into the blood and transported to the liver, where some of them are turned into ketones.
+
+The body can then use fatty acids and ketones in the absence of carbs as its primary energy source."
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:textStyle="bold"
+                android:text="Weight Loss"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:text="Numerous studies show low-carb diets are extremely helpful for weight loss, especially in overweight and obese individuals.
+
+Low-carb diets seem to be very effective at reducing dangerous belly fat, which can become lodged around your organs.
+
+People on very low-carb diets commonly reach a state called ketosis. Many studies have found that ketogenic diets lead to more than twice the weight loss of a low-fat, calorie-restricted diet. "
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:textStyle="bold"
+                android:text="Other benefits"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:text="Low-carb diets tend to reduce your appetite and make you feel less hungry, leading to an automatic reduction in calorie intake.
+
+Furthermore, low-carb diets may benefit many major disease risk factors, such as blood triglycerides, cholesterol levels, blood sugar levels, insulin levels and blood pressure. "
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:textStyle="bold"
+                android:text="The downside"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="310dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:text="Low-carb diets do not suit everyone. Some may feel great on them, while others will feel miserable.
+
+In extremely rare cases, very low-carb diets can cause a serious condition called ketoacidosis. This condition seems to be more common in lactating women and can be fatal if left untreated.
+
+However, low-carb diets are safe for the majority of people. "
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:textStyle="bold"
+                android:text="Eat"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="565dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:text="Meat: Beef, lamb, pork, chicken and others. Grass-fed is best.
+
+Fish: Salmon, trout, haddock and many others. Wild-caught fish is best.
+
+Eggs: Omega-3 enriched or pastured eggs are best.
+
+Vegetables: Spinach, broccoli, cauliflower, carrots and many others.
+
+Fruits: Apples, oranges, pears, blueberries, strawberries.
+
+Nuts and Seeds: Almonds, walnuts, sunflower seeds, etc.
+
+High-Fat Dairy: Cheese, butter, heavy cream, yoghurt.
+
+Fats and Oils: Coconut oil, butter, lard, olive oil and cod fish liver oil.
+"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:textStyle="bold"
+                android:text="Avoid"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:text="Sugar: Soft drinks, fruit juices, agave, candy, ice cream and many others.
+
+Gluten Grains: Wheat, spelt, barley and rye. Includes bread and pasta.
+
+High Omega-6 Seed and Vegetable Oils: Cottonseed, soybean, sunflower, grapeseed, corn, safflower and canola oils.
+
+Artificial Sweeteners: Aspartame, Saccharin, Sucralose, Cyclamates and Acesulfame Potassium. Use Stevia instead.
+
+Highly Processed Foods: If it looks like it was made in a factory, don't eat it."
+                android:textSize="19sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/title_home"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation" >
+
+    </android.support.design.widget.BottomNavigationView>
+
+</android.support.constraint.ConstraintLayout>

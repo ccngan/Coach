@@ -64,10 +64,12 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
         Button quadsButton = (Button) findViewById(R.id.quadsButton);
         quadsButton.setOnClickListener(this);
 
+
         mTextMessage = (TextView) findViewById(R.id.message);
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-    }
+}
+
 
     @Override
     public void onClick(View view) {
@@ -110,6 +112,7 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
             case R.id.quadsButton:
                 startActivity(quadsIntent);
                 break;
+
             default:
                 break;
         }

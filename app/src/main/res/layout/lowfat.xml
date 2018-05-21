@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@drawable/lowfat1"
+                />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:paddingTop="20dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:text="An ultra low-fat diet restricts the consumption of fat to under 10% of consumed calories.
+
+Generally, a low-fat diet provides around 30% of its calories as fat.
+
+Many studies have shown that this diet is ineffective for weight loss in the long term.
+
+Proponents of the ultra low-fat diet claim that traditional low-fat diets are not low-fat enough and fat intakes need to stay under 10% of total calories to produce health benefits and weight loss. "
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:textStyle="bold"
+                android:text="How it works"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:text="An ultra low-fat diet contains 10% or fewer calories from fat. The diet is mostly plant-based and has a limited intake of animal products.
+
+Therefore, it's generally very high in carbs (80%) and low in protein (10%). "
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:textStyle="bold"
+                android:text="Weight Loss"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:text="This diet has been shown to be very successful for weight loss among obese individuals. In one study, obese individuals lost an average of 140 lbs (63 kg) on an ultra low-fat diet termed the rice diet.
+
+Another 8-week study with a diet containing 7–14% fat showed an average weight loss of 14.8 lbs (6.7 kg)."
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:textStyle="bold"
+                android:text="Other benefits"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:text="Studies have shown that ultra low-fat diets can improve several risk factors for heart disease, including high blood pressure, high cholesterol and markers of inflammation.
+
+Surprisingly, this high-carb, low-fat diet can also lead to significant improvements in type 2 diabetics.
+
+Furthermore, it may slow the progression of multiple sclerosis, an autoimmune disease that affects the brain, spinal cord and optic nerves in the eyes. "
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:textStyle="bold"
+                android:text="The downside"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="290dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:text="The fat restriction may cause problems in the long-term, as fat has many important roles in the body.
+
+These include helping build cell membranes and hormones and helping the body absorb fat-soluble vitamins.
+
+Moreover, an ultra low-fat diet limits the intake of many healthy foods, lacks variety and is extremely hard to stick to.
+"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:textStyle="bold"
+                android:text="Cooking Tips"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="560dp"
+                android:paddingRight="6dp"
+                android:paddingLeft="6dp"
+                android:text="1. Avoid deep fried foods.
+
+2. Trim visible fat off meats and remove
+     the skin from poultry before cooking.
+
+3. Bake, broil, boil, poach or roast poultry,
+     fish and lean meats.
+
+4. Drain and discard fat that drains out of
+     meat as you cook it.
+
+5. Add little or no fat to foods.
+
+6. Use vegetable oil sprays to grease pans
+     for cooking or baking.
+
+7. Steam vegetables.
+
+8. Use herbs or no-oil marinades to flavour
+     foods."
+                android:textSize="19sp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="@string/title_home"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation" >
+
+    </android.support.design.widget.BottomNavigationView>
+
+</android.support.constraint.ConstraintLayout>
