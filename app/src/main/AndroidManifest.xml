@@ -11,8 +11,9 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".SplashScreen"
-            android:label="@string/title_activity_splash_screen">
-            <intent-filter>
+            android:label="@string/title_activity_splash_screen"
+            android:theme="@style/AppTheme.NoActionBar">
+        <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -57,6 +58,10 @@
             android:name=".Quads"
             android:label="@string/title_activity_quads"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MealMenu"
+            android:label="@string/title_activity_mealmenu"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

@@ -15,6 +15,9 @@ public class MealMenu extends AppCompatActivity {
         setContentView(R.layout.activity_mealmenu);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("Meal Menu");
+
+
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
