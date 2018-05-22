@@ -32,9 +32,7 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
                 case R.id.navigation_diet:
                     mTextMessage.setText(R.string.title_diet);
                     return true;
-                case R.id.navigation_notifications:
-                    mTextMessage.setText(R.string.title_notifications);
-                    return true;
+
             }
             return false;
         }
@@ -84,6 +82,7 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
         Intent shouldersIntent = new Intent(this, Shoulders.class);
         Intent quadsIntent = new Intent(this, Quads.class);
 
+
         switch(view.getId()) {
             case R.id.abductorsButton:
                 startActivity(abductorsIntent);
@@ -112,6 +111,7 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
             case R.id.quadsButton:
                 startActivity(quadsIntent);
                 break;
+
 
             default:
                 break;

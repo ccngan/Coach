@@ -57,7 +57,6 @@
                 android:layout_centerHorizontal="true"
                 android:foregroundGravity="center"
                 android:layout_gravity="center"
-                android:layout_marginbottom="10dp"
                 android:src="@drawable/lowfat"
                 />
 
