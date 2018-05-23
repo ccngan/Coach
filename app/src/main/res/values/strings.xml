@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Coach</string>
-    <string name="title_activity_introduction">Introduction</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_home2">Home2</string>
     <string name="title_home">Home</string>
     <string name="title_fitness">Fitness</string>
     <string name="title_dashboard">Dashboard</string>
@@ -17,4 +18,11 @@
     <string name="title_activity_quads">Quads</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
     <string name="title_activity_mealmenu">Meals</string>
+    <string name="title_activity_calves">Calves</string>
+    <string name="title_activity_glutes">Glutes</string>
+    <string name="title_activity_hamstrings">Hamstrings</string>
+    <string name="title_activity_lats">Lats</string>
+    <string name="title_activity_lowerback">Lowerback</string>
+    <string name="title_activity_traps">Traps</string>
+    <string name="title_activity_triceps">Triceps</string>
 </resources>

@@ -4,14 +4,18 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
+import android.support.v4.view.GestureDetectorCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.view.GestureDetector;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
 public class Home extends AppCompatActivity implements View.OnClickListener {
 
+    private GestureDetectorCompat gestureObject;
     private TextView mTextMessage;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
@@ -32,7 +36,9 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
                 case R.id.navigation_diet:
                     mTextMessage.setText(R.string.title_diet);
                     return true;
-
+                case R.id.navigation_notifications:
+                    mTextMessage.setText(R.string.title_notifications);
+                    return true;
             }
             return false;
         }
@@ -42,6 +48,8 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        gestureObject = new GestureDetectorCompat(this, new LearnGesture());
 
         Button abductorsButton = (Button) findViewById(R.id.abductorsButton);
         abductorsButton.setOnClickListener(this);
@@ -68,6 +76,11 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 }
 
+    @Override
+    public boolean onTouchEvent (MotionEvent event) {
+        this.gestureObject.onTouchEvent(event);
+        return super.onTouchEvent(event);
+    }
 
     @Override
     public void onClick(View view) {
@@ -115,6 +128,22 @@ public class Home extends AppCompatActivity implements View.OnClickListener {
 
             default:
                 break;
+        }
+    }
+
+    // now create the gesture Object class
+
+    class LearnGesture extends GestureDetector.SimpleOnGestureListener {
+        // SimpleOnGestureListener is listener for what we want to do and how
+
+        // now putting the required code for gesture side by side
+
+        @Override
+        public boolean onFling(MotionEvent event1, MotionEvent event2, float velocityX, float velocityY) {
+                Intent intent = new Intent(Home.this, Home2.class);
+                finish(); // finish is used to stop history for mainActivity class
+                startActivity(intent);
+            return true;
         }
     }
 }

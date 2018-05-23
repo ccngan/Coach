@@ -20,7 +20,10 @@
         </activity>
         <activity
             android:name=".Home"
-            android:label="@string/title_activity_introduction" />
+            android:label="@string/title_activity_home" />
+        <activity
+            android:name=".Home2"
+            android:label="@string/title_activity_home2" />
         <activity
             android:name=".Abductors"
             android:label="@string/title_activity_abductors"
@@ -57,6 +60,34 @@
             android:name=".Quads"
             android:label="@string/title_activity_quads"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Calves"
+            android:label="@string/title_activity_calves"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Glutes"
+            android:label="@string/title_activity_glutes"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Hamstrings"
+            android:label="@string/title_activity_hamstrings"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Lats"
+            android:label="@string/title_activity_lats"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Lowerback"
+            android:label="@string/title_activity_lowerback"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Traps"
+            android:label="@string/title_activity_traps"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Triceps"
+            android:label="@string/title_activity_triceps"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>
