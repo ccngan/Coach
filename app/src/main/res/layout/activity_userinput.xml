@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/background2">
 
 
     <LinearLayout
@@ -17,8 +18,8 @@
             android:id="@+id/textView17"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="#40FFF9"
             android:textStyle="bold"
+            android:textColor="#86CFB4  "
             android:text="   Please input your body
 conditions before we start"
             android:textSize="25dp" />
@@ -32,10 +33,12 @@ conditions before we start"
         android:layout_height="wrap_content"
         android:layout_below="@+id/linearLayout"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/inputshape"
         android:ems="10"
-        android:hint="Age"
-        android:inputType="number"/>
+        android:hint="  Age"
+        android:inputType="number"
+        android:textColorHint="#000000" />
 
     <EditText
         android:id="@+id/heightinput"
@@ -44,8 +47,11 @@ conditions before we start"
         android:layout_alignLeft="@+id/ageinput"
         android:layout_alignStart="@+id/ageinput"
         android:layout_below="@+id/ageinput"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/inputshape"
         android:ems="10"
-        android:hint="Height"
+        android:hint="  Height"
+        android:textColorHint="#000000"
         android:inputType="number" />
 
     <EditText
@@ -55,8 +61,11 @@ conditions before we start"
         android:layout_alignLeft="@+id/heightinput"
         android:layout_alignStart="@+id/heightinput"
         android:layout_below="@+id/heightinput"
+        android:layout_marginTop="17dp"
+        android:background="@drawable/inputshape"
         android:ems="10"
-        android:hint="Weight"
+        android:hint="  Weight"
+        android:textColorHint="#000000"
         android:inputType="number" />
 
     <Button
@@ -66,9 +75,10 @@ conditions before we start"
         android:layout_height="50dp"
         android:layout_below="@+id/weightinput"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="46dp"
+        android:layout_marginTop="31dp"
         android:background="@drawable/buttonshape"
         android:text="Done"
-        android:textColor="#40FFF9"
-        android:textSize="25sp" />
+        android:textColor="#30634D"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 </RelativeLayout>
